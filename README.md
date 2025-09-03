@@ -1,4 +1,4 @@
-#📝 PAN Number Validation Project
+# PAN Number Validation Project
 
 This project focuses on data cleaning and validation of Permanent Account Numbers (PAN) of Indian nationals. The objective is to ensure that each PAN number adheres to the official format and is categorized as either Valid or Invalid.
 
