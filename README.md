@@ -1,84 +1,84 @@
-📝 PAN Number Validation Project
+#📝 PAN Number Validation Project
 
 This project focuses on data cleaning and validation of Permanent Account Numbers (PAN) of Indian nationals. The objective is to ensure that each PAN number adheres to the official format and is categorized as either Valid or Invalid.
 
 The dataset used is provided in:
 📂 PAN Number Validation Dataset.xlsx
 
-🎯 Objectives
+# Objectives
 
-Clean and preprocess PAN number data.
+-Clean and preprocess PAN number data.
 
-Validate PAN numbers against official format rules.
+-Validate PAN numbers against official format rules.
 
-Categorize PAN numbers as Valid or Invalid.
+-Categorize PAN numbers as Valid or Invalid.
 
-Generate a summary report of results.
+-Generate a summary report of results.
 
-⚙️ Data Cleaning & Preprocessing
+# Data Cleaning & Preprocessing
 
-Handle Missing Data
+-Handle Missing Data
 
-Identify and handle missing PAN values (remove or impute depending on context).
+ -Identify and handle missing PAN values (remove or impute depending on context).
 
-Remove Duplicates
+-Remove Duplicates
 
-Ensure all PAN numbers are unique.
+ -Ensure all PAN numbers are unique.
 
-Trim Whitespaces
+-Trim Whitespaces
 
-Remove leading and trailing spaces.
+ -Remove leading and trailing spaces.
 
-Correct Letter Case
+-Correct Letter Case
 
-Convert all PAN numbers to uppercase.
+ -Convert all PAN numbers to uppercase.
 
-🔎 PAN Format Validation Rules
+# PAN Format Validation Rules
 
-A valid PAN number must:
+ -A valid PAN number must:
 
-Be exactly 10 characters long.
+ -Be exactly 10 characters long.
 
-Follow the format: AAAAA1234A
+ -Follow the format: AAAAA1234A
 
-First 5 characters: alphabetic (A–Z)
+ -First 5 characters: alphabetic (A–Z)
 
-No adjacent repeating letters (e.g., AABCD ❌, AXBCD ✅)
+ -No adjacent repeating letters (e.g., AABCD ❌, AXBCD ✅)
 
-Not a sequential string (e.g., ABCDE, BCDEF ❌, ABCDX ✅)
+ -Not a sequential string (e.g., ABCDE, BCDEF ❌, ABCDX ✅)
 
-Next 4 characters: numeric (0–9)
+ -Next 4 characters: numeric (0–9)
 
-No adjacent repeating digits (e.g., 1123 ❌, 1923 ✅)
+ -No adjacent repeating digits (e.g., 1123 ❌, 1923 ✅)
 
-Not sequential (e.g., 1234, 2345 ❌)
+ -Not sequential (e.g., 1234, 2345 ❌)
 
-Last 1 character: alphabetic (A–Z)
+ -Last 1 character: alphabetic (A–Z)
 
 ✅ Example of a valid PAN: AHGVE1276F
 
-📊 Categorization
+# Categorization
 
-Valid PAN → Meets all format rules.
+ -Valid PAN → Meets all format rules.
 
-Invalid PAN → Fails format rules, incomplete, or contains invalid characters.
+ -Invalid PAN → Fails format rules, incomplete, or contains invalid characters.
 
-🛠️ Tasks
+# Tasks
 
-Validate PAN numbers using the rules above.
+-Validate PAN numbers using the rules above.
 
-Categorize into:
+-Categorize into:
 
-Valid PAN
+ -Valid PAN
 
-Invalid PAN
+ -Invalid PAN
 
-Generate a summary report including:
+# Generate a summary report including:
 
-Total records processed
+ -Total records processed
 
-Total valid PANs
+ -Total valid PANs
 
-Total invalid PANs
+ -Total invalid PANs
 
-Total missing or incomplete PANs (if any)
+ -Total missing or incomplete PANs (if any)
